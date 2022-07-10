@@ -13,7 +13,7 @@ void PrintSumNumbersOnEvenPosInArray(int[] array)
     {
         sum += array[i];
     }
-    Console.WriteLine($"The number of even numbers in this array is {sum}");
+    Console.WriteLine($"The sum of numbers on odd positions in this array is {sum}");
 }
 
 void PrintArray(int[] array)
